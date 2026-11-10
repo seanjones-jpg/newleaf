@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NewLeaf Privacy and Support</title>
+<meta name="description" content="Privacy policy and support for NewLeaf, the iPhone app that blocks gambling apps and websites with a sponsor you trust.">
+<meta name="theme-color" content="#2F6B45">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%232F6B45'/%3E%3Cpath d='M30 52 C30 72 41 86 50 87 C59 86 70 72 70 52 Z' fill='%23C98B52'/%3E%3Cpath d='M25 53 C25 40 37 34 50 34 C63 34 75 40 75 53 Z' fill='%237A4E2D'/%3E%3Cpath d='M51 34 C51 28 52 25 55 22' stroke='%238CC084' stroke-width='3' fill='none'/%3E%3Cpath d='M55 23 C59 14 68 11 73 13 C70 20 62 25 55 23 Z' fill='%238CC084'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap">
+<style>
+  /* Layout: one calm reading column, the app's linen and forest green, a wood rule between sections. */
+  :root {
+    --bg: #F5F1E8;
+    --surface: #EAE3D5;
+    --fg: #1E2A22;
+    --muted: #5F6156;
+    --accent: #2F6B45;
+    --wood: #9A7653;
+    --display: 'Nunito', ui-rounded, system-ui, sans-serif;
+    --body: 'Nunito Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121814; --surface: #1D2520; --fg: #E9E5DA; --muted: #A7ADA2; --accent: #7DB88A; --wood: #8A6A4C;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121814; --surface: #1D2520; --fg: #E9E5DA; --muted: #A7ADA2; --accent: #7DB88A; --wood: #8A6A4C;
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .page {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding-block: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  header { display: flex; align-items: center; gap: 1rem; }
+  header svg { flex: none; width: 3.5rem; height: 3.5rem; }
+  h1, h2, h3 { font-family: var(--display); text-wrap: balance; line-height: 1.2; margin: 0; }
+  h1 { font-size: 2rem; font-weight: 800; }
+  h2 { font-size: 1.5rem; font-weight: 800; color: var(--accent); }
+  h3 { font-size: 1.125rem; font-weight: 700; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  .tagline { color: var(--muted); }
+  nav { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  nav a, .chip {
+    font-weight: 700; font-size: 0.9375rem; text-decoration: none;
+    color: var(--accent); border: 1.5px solid var(--accent); border-radius: 999px; padding: 0.3rem 0.9rem;
+  }
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+  section { display: flex; flex-direction: column; gap: 1.5rem; scroll-margin-top: 1.5rem; }
+  section + section { border-top: 3px solid var(--wood); padding-top: 2.5rem; }
+  .block { display: flex; flex-direction: column; gap: 0.6rem; }
+  .meta { font-size: 0.875rem; color: var(--muted); letter-spacing: 0.02em; }
+  .summary { background: var(--surface); border-radius: 1rem; padding: 1.25rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .summary strong { font-family: var(--display); font-size: 1.125rem; }
+  .contact { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem; }
+  .contact code { font-family: var(--body); font-weight: 700; font-size: 1rem; user-select: all; overflow-wrap: anywhere; }
+  button.chip { background: none; cursor: pointer; font-family: var(--body); }
+  .helplines { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.75rem; }
+  .helpline { background: var(--surface); border-radius: 0.75rem; padding: 0.9rem 1rem; min-width: 0; }
+  .helpline b { display: block; }
+  .helpline span { color: var(--muted); font-size: 0.9375rem; }
+  .helpline .number { color: var(--fg); font-weight: 700; font-variant-numeric: tabular-nums; user-select: all; }
+  footer { color: var(--muted); font-size: 0.875rem; }
+</style>
+
+</head>
+<body>
+<div class="page">
+  <header>
+    <svg viewBox="0 0 1024 1024" role="img" aria-label="NewLeaf icon">
+      <rect width="1024" height="1024" rx="230" fill="#2F6B45"/>
+      <g transform="translate(512 512) scale(0.86) translate(-512 -496)">
+        <path d="M512 352 C508 300 520 262 552 226" stroke="#6FAF6A" stroke-width="24" stroke-linecap="round" fill="none"/>
+        <path d="M532 262 C486 178 404 160 352 188 C394 254 466 282 532 262 Z" fill="#A5D29A"/>
+        <path d="M552 230 C594 140 684 104 740 124 C712 204 628 250 552 230 Z" fill="#8CC084"/>
+        <path d="M318 516 C318 724 424 862 512 870 C600 862 706 724 706 516 Z" fill="#C98B52"/>
+        <path d="M262 532 C262 404 378 340 512 340 C646 340 762 404 762 532 Z" fill="#7A4E2D"/>
+        <rect x="246" y="498" width="532" height="68" rx="34" fill="#6A4227"/>
+      </g>
+    </svg>
+    <div>
+      <h1>NewLeaf</h1>
+      <p class="tagline">Block gambling apps and sites, with a sponsor you trust.</p>
+    </div>
+  </header>
+
+  <nav aria-label="On this page">
+    <a href="#privacy">Privacy policy</a>
+    <a href="#support">Support</a>
+  </nav>
+
+  <section id="privacy" aria-labelledby="privacy-title">
+    <div class="block">
+      <h2 id="privacy-title">Privacy policy</h2>
+      <p class="meta">Effective 10 November 2026</p>
+    </div>
+
+    <div class="summary">
+      <strong>NewLeaf doesn’t collect your data.</strong>
+      <p>There are no accounts, no servers, no analytics, no advertising and no tracking. Everything NewLeaf knows stays on your iPhone.</p>
+    </div>
+
+    <div class="block">
+      <h3>Who we are</h3>
+      <p>NewLeaf is made by Sean Jones, an independent developer. If you have a question about this policy, email <b>seanjonesbusiness@gmail.com</b>.</p>
+    </div>
+
+    <div class="block">
+      <h3>What stays on your iPhone</h3>
+      <p>To work, NewLeaf keeps a few things on your phone. None of it is sent to us or anyone else.</p>
+      <ul>
+        <li><b>Your block list.</b> You choose apps and websites with Apple’s Screen Time picker. Apple gives NewLeaf only anonymous tokens for your choices, so NewLeaf can’t see which apps or sites you picked, and never sees how you use them.</li>
+        <li><b>Your streak and garden.</b> The dates your streak started and ended, and the trees on your shelves.</li>
+        <li><b>Your sponsor pairing.</b> The secret behind your sponsor’s codes is stored in the iOS Keychain on this device only. It is never synced to iCloud and never shown in the app.</li>
+        <li><b>Your settings</b>, such as light or dark mode and whether gambling websites are blocked.</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>Screen Time and Family Controls</h3>
+      <p>NewLeaf uses Apple’s Screen Time features only to shield the apps and websites on your block list and to bring the shield back after an unlock. This data is handled by iOS on your device. NewLeaf doesn’t read your Screen Time reports or app usage.</p>
+    </div>
+
+    <div class="block">
+      <h3>Your sponsor</h3>
+      <p>When you pair, your sponsor scans a QR code with an authenticator app on their own phone. The code goes straight from your screen to their phone; nothing passes through us. Their authenticator app has its own privacy policy.</p>
+    </div>
+
+    <div class="block">
+      <h3>When you choose to share something</h3>
+      <ul>
+        <li><b>Message my sponsor</b> opens the iPhone share sheet. Your message is sent by the app you pick, such as Messages or WhatsApp. NewLeaf doesn’t see or keep it.</li>
+        <li><b>Helplines</b> open your phone app or web browser. NewLeaf doesn’t know whether you call.</li>
+        <li><b>Send feedback</b> opens your email app. If you send us an email, we receive your email address, your message, and the app and iOS versions included at the bottom. We use it only to reply and fix problems, and don’t share it.</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>Notifications</h3>
+      <p>NewLeaf shows a notification on your phone when you tap “Request unlock” on a blocked app. It is created on your device. We don’t send push notifications.</p>
+    </div>
+
+    <div class="block">
+      <h3>Deleting your data</h3>
+      <p>Deleting NewLeaf removes its shields and its data from your phone. iOS may keep the Keychain items (your pairing and streak) on the phone after the app is deleted, so reinstalling NewLeaf on the same phone can restore them. Erasing your iPhone removes them completely. Because we hold no data about you, there is nothing for us to delete on our side.</p>
+    </div>
+
+    <div class="block">
+      <h3>Age</h3>
+      <p>NewLeaf is meant for adults. It isn’t directed at children, and we don’t knowingly collect information from anyone.</p>
+    </div>
+
+    <div class="block">
+      <h3>Changes</h3>
+      <p>If this policy changes, the new version will appear on this page with a new effective date. If NewLeaf ever starts collecting data, the policy will say so before that happens.</p>
+    </div>
+  </section>
+
+  <section id="support" aria-labelledby="support-title">
+    <h2 id="support-title">Support</h2>
+
+    <div class="block">
+      <h3>Contact</h3>
+      <p>Found a bug, or have a question or an idea? Email us. Say what you were doing when it happened and which iPhone you use.</p>
+      <div class="contact">
+        <code id="email">seanjonesbusiness@gmail.com</code>
+        <button type="button" class="chip" id="copy-email">Copy address</button>
+      </div>
+      <p class="meta">You can also use “Send feedback or report a bug” in NewLeaf’s Settings.</p>
+    </div>
+
+    <div class="block">
+      <h3>My sponsor can’t give me a code</h3>
+      <p>That’s by design. Only your sponsor’s current code can unlock NewLeaf, change your block list or turn the shield off. There is no backup code and no way for us to unlock it. Ask your sponsor to keep their authenticator app, and stay in touch with them.</p>
+    </div>
+
+    <div class="block">
+      <h3>My sponsor got a new phone</h3>
+      <p>Most authenticator apps can move codes to a new phone. If your sponsor can still see their code, you can also pair a new sponsor from the Sponsor tab using their current code.</p>
+    </div>
+
+    <div class="block">
+      <h3>Why do I have to wait before unlocking?</h3>
+      <p>Urges usually rise and pass within minutes. The short pause gives you time to check whether you still want to go ahead, and to message your sponsor or call a helpline first.</p>
+    </div>
+
+    <div class="block">
+      <h3>What NewLeaf can’t do</h3>
+      <ul>
+        <li>Someone determined can still delete the app or reset the phone. Your sponsor can set a Screen Time passcode to make deleting apps harder.</li>
+        <li>It blocks the apps you choose and 50 major gambling websites. Other sites and apps aren’t covered unless you add them.</li>
+        <li>Codes are checked on your phone, so a very technical user could get around them. NewLeaf is a support, not a guarantee.</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>Need to talk to someone now?</h3>
+      <p>These services are free and confidential. You don’t have to be in crisis to get in touch.</p>
+      <div class="helplines">
+        <div class="helpline"><b>United States</b><span>National Problem Gambling Helpline, call or text, 24/7</span><br><span class="number">1-800-GAMBLER</span></div>
+        <div class="helpline"><b>United Kingdom</b><span>National Gambling Helpline (GamCare), 24/7</span><br><span class="number">0808 8020 133</span></div>
+        <div class="helpline"><b>Australia</b><span>Gambling Help Online, 24/7</span><br><span class="number">1800 858 858</span></div>
+        <div class="helpline"><b>New Zealand</b><span>Gambling Helpline, 24/7</span><br><span class="number">0800 654 655</span></div>
+        <div class="helpline"><b>Anywhere</b><span>Gamblers Anonymous meetings</span><br><a href="https://www.gamblersanonymous.org">gamblersanonymous.org</a></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>NewLeaf isn’t a medical service. If you’re in danger, call your local emergency number.</footer>
+</div>
+
+<script>
+  document.getElementById('copy-email').addEventListener('click', (event) => {
+    const button = event.currentTarget;
+    const address = document.getElementById('email');
+    navigator.clipboard.writeText(address.textContent).then(
+      () => { button.textContent = 'Copied'; },
+      () => {
+        const range = document.createRange();
+        range.selectNodeContents(address);
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        button.textContent = 'Selected, press copy';
+      }
+    );
+  });
+</script>
+
+</body>
+</html>
